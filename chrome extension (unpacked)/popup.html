@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>BuzzKill</title>
+    <link rel="stylesheet" type="text/css" href="info-popup.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script type="text/javascript" src="jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="date.js"></script>
+    <script type="text/javascript" src="info-popup.js"></script>
+    <script type="text/javascript" src="test.js"></script>
+  </head>
+  <body>
+    <p class="nick_name" id="nickname">Account summary for </p>
+    <table class="maintbl">
+      <tr>
+        <td><p class="accstat">Your current bank account balance:</p>
+        <td><p class="statval" id="currbal"></td>
+      </tr>
+      <tr>
+        <td><p class="accstat">Scheduled out:</p></td>
+        <td><p class="statval" id="schedout"/></td>
+      </tr>
+      <tr>
+        <td><p class="accstat">Scheduled in:</p></td>
+        <td><p class="statval" id="schedin"/></td>
+      </tr>
+      <tr>
+        <td><p class="accstat">This purchase:</p></td>
+        <td><p class="statval" id="thispurch"td>
+      </tr>
+      <tr>
+        <td><p class="accstat">Available to spend</p></td>
+        <td><p class="statval" id="amntavailable"td>
+      </tr>
+    </table>
+    <input class="settingsbutton" type="button" value="Go to settings..." id="settingsbtn"/>
+    <br>
+    <form>
+      <label for="amount"><input type="text" name="amount">
+        <input type="submit" value="Check valid funds" id="fundsButton">
+      </form>
+
+
+
+  </body>
+
+</html>

@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "MoneyWatch",
+  "description": "A healthy dose of reality",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "https://ajax.googleapis.com/",
+    "storage"
+  ]
+}

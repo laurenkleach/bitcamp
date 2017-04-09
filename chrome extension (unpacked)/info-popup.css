@@ -1,0 +1,56 @@
+body {
+  font-family: 'Open Sans';
+  width:500px;
+  height:300px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.nick_name {
+  font-size: 25px;
+  margin-left: 45px;
+  margin-top: 30px;
+}
+
+.accstat, .statval {
+  font-size: 16px;
+}
+
+table {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td:last-of-type{
+  text-align: right;
+}
+
+.settingsbutton {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: 'Open Sans';
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-left: 45px;
+  margin-top: 20px;
+}
+
+.settingsbutton:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
